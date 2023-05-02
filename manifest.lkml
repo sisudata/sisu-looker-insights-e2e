@@ -1,11 +1,11 @@
 
 
 # Blank lines are intentional
-project_name: "sisu-insights"
-application: sisu-insights {
+project_name: "looker_e2e_test"
+application: looker_e2e_test {
   label: "Sisu Insights"
-  
-  
+
+
   url: "http://localhost:8080/Looker.js"
   entitlements: {
     use_embeds: yes

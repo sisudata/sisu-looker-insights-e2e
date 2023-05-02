@@ -14,8 +14,8 @@
   },
   "models": [
     {
-      "name": "sisu-insights",
-      "connection_constant": "CONNECTION_NAME"
+      "name": "looker_e2e_test",
+      "connection_constant": "demo_dataset"
     }
   ]
 }
