@@ -10,10 +10,7 @@ datagroup: gaming_default_datagroup {
 
 persist_with: gaming_default_datagroup
 
-explore: daily_player_engagement {
-  always_filter: {
-    filters: [location: "WY", gender: "Male", campign_type: "Playable"]
-  }
+explore: daily_player_engagement_sf {
   # access_filter: {
   #   field: game_title
   #   user_attribute: game_title

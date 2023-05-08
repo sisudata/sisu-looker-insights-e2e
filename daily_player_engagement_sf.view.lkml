@@ -1,7 +1,9 @@
-view: daily_player_engagement {
-  sql_table_name: "GAMING"."DAILY_PLAYER_ENGAGEMENT"
-    ;;
+view: daily_player_engagement_sf {
 
+  derived_table: {
+    sql: select * from GAMING.DAILY_PLAYER_ENGAGEMENT limit 50000
+      ;;
+  }
   dimension: acquisition_cost {
     type: number
     sql: ${TABLE}."ACQUISITION_COST" ;;
