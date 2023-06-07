@@ -1,3 +1,4 @@
+
 # Blank lines are intentional
 project_name: "looker_e2e_test"
 application: looker_e2e_test {
