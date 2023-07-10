@@ -4,7 +4,7 @@ application: looker_e2e_test {
   label: "Sisu Insights"
 
 
-  file: "Looker.js"
+  url: "http://localhost:8080/sisu-insights.js"
   entitlements: {
     use_embeds: yes
     use_form_submit: yes
